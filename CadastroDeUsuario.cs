@@ -18,6 +18,10 @@ namespace CadastroUsuaio
 // classe para representar as informações do cadastro
 public class Cadastro
  {
+    console.write("digite seu nome: " , Nome);
+    console.write("digite seu email: " , Email);
+    console.write("digite seu telefone: " , Telefone);
+     
     public string Nome { get; set; }
     public string Email { get; set; }
     public string Telefone { get; set; }
